@@ -1,0 +1,54 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+  gap: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.names{
+    display: flex;
+    gap: 20px;
+}
+
+.inputField{
+    height: 30px;
+    padding: 6px;
+}
+
+.inputEmail{
+    width: 24%;
+    height: 30px;
+    padding: 6px;
+}
+
+.inputNumber{
+    width: 24%;
+    height: 30px;
+    padding: 6px;
+}
+
+.formHeading{
+    margin: 0;
+}
+
+
+.submitbtn{
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: large;
+}
+
+.submitbtn:hover{
+    background-color: red;
+    opacity: 0.5;
+}
